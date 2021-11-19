@@ -89,7 +89,7 @@ class DetailsScreen extends StatelessWidget {
                     text: TextSpan(
                       style: Theme.of(context)
                           .textTheme
-                          .display1!
+                          .headline4!
                           .copyWith(fontSize: 28),
                       children: [
                         TextSpan(

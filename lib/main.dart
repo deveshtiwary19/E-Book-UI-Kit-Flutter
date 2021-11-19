@@ -41,7 +41,7 @@ class WelcomeScreen extends StatelessWidget {
             //Following is the rich text to display the name
             RichText(
                 text: TextSpan(
-                    style: Theme.of(context).textTheme.display3,
+                    style: Theme.of(context).textTheme.headline2,
                     children: [
                   //The first psrt of name
                   TextSpan(

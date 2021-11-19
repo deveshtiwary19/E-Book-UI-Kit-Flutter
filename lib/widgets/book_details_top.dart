@@ -22,13 +22,13 @@ class BookInfo extends StatelessWidget {
             Text(
               "Crushing &",
               style:
-                  Theme.of(context).textTheme.display1!.copyWith(fontSize: 28),
+                  Theme.of(context).textTheme.headline4!.copyWith(fontSize: 28),
             ),
             Text(
               "Influence",
               style: Theme.of(context)
                   .textTheme
-                  .display1!
+                  .headline4!
                   .copyWith(fontWeight: FontWeight.bold, fontSize: 28),
             ),
             SizedBox(

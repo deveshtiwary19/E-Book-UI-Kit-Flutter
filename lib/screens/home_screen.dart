@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 24),
                     child: RichText(
                         text: TextSpan(
-                            style: Theme.of(context).textTheme.display1,
+                            style: Theme.of(context).textTheme.headline4,
                             children: [
                           TextSpan(text: "What are you\nreading "),
                           TextSpan(
@@ -112,7 +112,7 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         RichText(
                           text: TextSpan(
-                              style: Theme.of(context).textTheme.display1,
+                              style: Theme.of(context).textTheme.headline4,
                               children: [
                                 TextSpan(text: "Best of the "),
                                 TextSpan(
@@ -125,7 +125,7 @@ class HomeScreen extends StatelessWidget {
                         bestOfTheDayCard(size, context),
                         RichText(
                           text: TextSpan(
-                              style: Theme.of(context).textTheme.display1,
+                              style: Theme.of(context).textTheme.headline4,
                               children: [
                                 TextSpan(text: 'Continue '),
                                 TextSpan(
@@ -267,7 +267,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     Text(
                       "How To Win\nFriends & Influence",
-                      style: Theme.of(context).textTheme.title,
+                      style: Theme.of(context).textTheme.headline6,
                     ),
                     Text(
                       'Gary Venchuk',
